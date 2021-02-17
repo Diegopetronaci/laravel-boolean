@@ -3,7 +3,7 @@
     @section('content')
         
         @foreach ($posts as $post)
-            <h2> {{ $post->titolo }} </h2>
+            <h2> {{ $post->title }} </h2>
         @endforeach
 
 

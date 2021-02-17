@@ -22,7 +22,6 @@ class homeController extends Controller
     public function indexBlog()
     {
         $posts = Post::all() ;
-        dd($posts);
         return view('blog' , compact('posts'));
     }
 }
