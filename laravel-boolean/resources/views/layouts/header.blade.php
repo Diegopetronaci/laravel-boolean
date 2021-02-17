@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <!-- Styles -->
-    
+
 
 </head>
 
@@ -21,10 +21,10 @@
             <img src="img/logo.png" alt="">
         </div>
 
-        <div class="d_flex flex_center sfondo_verde">
-            <a href="home"> HOME </a>
-            <a href="about"> ABOUT </a>
-            <a href="blog"> BLOG </a>
+        <div class="d_flex flex_center">
+            <a href="{{ route('home') }}"> HOME </a>
+            <a href="{{ route('about') }}"> ABOUT </a>
+            <a href="{{ route('blog') }}"> BLOG </a>
         </div>
 
     </header>

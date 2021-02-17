@@ -1,5 +1,5 @@
-@include('layouts.header')
+@extends('app')
 
-    @yield('content')
-
-@include('layouts.footer')
+    @section('content')
+        <h1>Home</h1>
+    @endsection

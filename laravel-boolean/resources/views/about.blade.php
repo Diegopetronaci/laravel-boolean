@@ -1,4 +1,5 @@
-@include('layouts.header')
+@extends('app')
 
-
-@include('layouts.footer')
+    @section('content')
+        <h1>About</h1>
+    @endsection
